@@ -1,0 +1,23 @@
+* { 
+    box-sizing: border-box;
+  }
+    
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: ;
+    font-family: sans-serif;
+    color: rgb(212, 40, 40);
+    background: #d9d9d9;
+    border: solid black 4px;
+    background-image: url:images/20191122_094928.jpg;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: #6633ff;
+  }
+  
