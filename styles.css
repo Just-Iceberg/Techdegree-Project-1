@@ -27,7 +27,7 @@ a:hover {
   width: 100%;
   background:#999999;
   min-height: 30px;
-  padding: 10px;
+  padding: 10px; 
   position: fixed;
   text-align: center;
   border: solid #d9d9d9 2px;
@@ -98,10 +98,11 @@ header .profile-image:hover {
   margin: 20px;
   padding: 20px 40px 40px;
   max-width: 33%;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-right: 4px solid #ccc;
+  border-radius: 10px;
   transition: all .5s;
 }
 .card:hover {
@@ -113,17 +114,25 @@ ul.skills {
   text-align: center;
 }
 
+.photos {
+  margin-top: 20px;
+  border:solid black 2px;
+}
+.photos:hover{ 
+  opacity: 0.7;
+}
+
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #80ccff;
   color: black;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #999999;
 }
 
 footer {
@@ -157,12 +166,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
@@ -177,7 +181,7 @@ a.social:hover {
 
 @media screen and (min-width: 720px) {
   
-   .flex { */
+   .flex { 
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
